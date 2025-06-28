@@ -17,4 +17,4 @@ class $modify(MyMenuLayer, MenuLayer) {
 		// make the button
 
 	}
-}
+};
