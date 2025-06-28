@@ -6,37 +6,20 @@
 		"mac": "2.2074",
 		"ios": "2.2074"
 	},
-	"id": "frenchfrysays.calebsmod",
+	"id": "frenchfrysays.button",
 	"name": "Caleb's Mod",
-	"version": "v1.1.0",
+	"version": "v1.0.0",
 	"developers": [
 		"frenchfrysays",
 		"lilfrysays"
 	],
-	"description": "A Mod for caleb",
-	"resources": {
-		"files": [
-			"res/sounds/godzilla-roar1.mp3",
-			"res/sounds/godzilla-roar2.mp3",
-			"res/sounds/godzilla-roar3.mp3",
-			"res/sounds/godzilla-roar4.mp3",
-			"res/sounds/godzilla-roar5.mp3",
-			"res/sounds/godzilla-roar6.mp3",
-			"res/sounds/godzilla-roar7.mp3",
-			"res/sounds/godzilla-roar8.mp3",
-			"res/sounds/godzilla-roar9.mp3",
-			"res/sounds/godzilla-roar10.mp3"
-		],
-		"sprites": [
-			"res/sprites/godzilla.png"
-		]
-	},
+	"description": "A Simple button that cycles through sound effects",
 	"dependencies": {
 		"geode.node-ids": "1.20.1"
 	},
 	"links": {
-		"source": "https://github.com/frenchfrysays3/calebs-mod/",
-		"homepage": "https://frenchfrysays3.github.io/mods/mods/calebs-mod.html"
+		"source": "https://github.com/frenchfrysays3/button/",
+		"homepage": "https://frenchfrysays3.github.io/mods/mods/button.html"
 	},
 	"tags": [
 		"interface",
