@@ -3,7 +3,7 @@
 
 using namespace geode::prelude;
 
-class $modify(MenuLayer, MyMenuLayer) {
+class $modify(MyMenuLayer, MenuLayer) {
 	bool init() {
 		// start up the class
 
