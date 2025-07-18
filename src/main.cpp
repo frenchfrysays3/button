@@ -44,6 +44,26 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 	// function for sound effect (soundEffect)
 	void soundEffect() {
-		
+		// Declare a variable that will be used for playing the sound effects
+		static int sound = 0;
+
+		// if tree to play the sound effects depending on sound variable
+		if (sound == 0) {
+			FMODAudioEngine::sharedEngine()->playEffect("geometry-dash.mp3"_spr);
+		} else if (sound == 1) {
+			FMODAudioEngine::sharedEngine()->playEffect("fire-in-the-hole-geometry-dash.mp3"_spr);
+		} else if (sound == 2) {
+			FMODAudioEngine::sharedEngine()->playEffect("easy-geometry-dash.mp3"_spr);
+		} else if (sound == 3) {
+			FMODAudioEngine::sharedEngine()->playEffect("death-sound-geometry-dash.mp3"_spr);
+		}
+
+		// bump up sound to the next number
+		sound = sound + 1;
+
+		// check if sound is 4 and if so, set it to 0
+		if (sound == 4) {
+			sound = 0;
+		}
 	}
 };
