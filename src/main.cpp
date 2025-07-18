@@ -17,10 +17,12 @@ class $modify(MyMenuLayer, MenuLayer) {
 		// make the button
 		auto spr = ButtonSprite::create("Click me for SE.");
 		auto btn = CCMenuItemSpriteExtra::create(spr, this, menu_selector(MyMenuLayer::onBtn));
+		log::info("Added a Button");
 
 		// declare the menu and add achild to it
 		auto menu = CCMenu::create();
 		menu->addChild(btn);
+		log::info("added the button as a child");
 
 		// update menu
 		menu->updateLayout();
