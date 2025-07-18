@@ -24,5 +24,10 @@
 	"tags": [
 		"interface",
 		"offline"
-	]
+	],
+	"resources": {
+		"files": [
+			"res/SE/*.mp3"
+		]
+	}
 }
